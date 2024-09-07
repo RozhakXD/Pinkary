@@ -1,10 +1,10 @@
 # PINKARY - PROFILE VIEWS SENDER
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-![Pinkary Image](https://github.com/user-attachments/assets/1e7ff6d4-6817-419b-8712-c0c58cc16352)
+![Pinkary](https://github.com/user-attachments/assets/f7acc3e6-a857-485b-b8c0-abda0500a20b)
 
-Pinkary adalah program sederhana untuk mengirim views otomatis ke profil Pinkary, dibuat dengan Python. Dengan antarmuka yang mudah digunakan dan dukungan multi-threading, Pinkary membantu Anda meningkatkan views profil dengan cepat.
+**Pinkary** adalah program sederhana untuk mengirim views otomatis ke profil Pinkary, dibuat dengan Python. Dengan antarmuka yang mudah digunakan dan dukungan multi-threading, Pinkary membantu Anda meningkatkan views profil dengan cepat.
 
 ## Fitur
 
@@ -75,7 +75,7 @@ num_threads = 10  # Menambah jumlah thread untuk proses yang lebih cepat
 ```
 
 ## Dukungan
-Jika Anda menikmati menggunakan Pinkary dan ingin mendukung pengembang lebih lanjut, pertimbangkan untuk memberikan donasi melalui platform berikut:
+Jika Anda menikmati menggunakan **Pinkary** dan ingin mendukung pengembang lebih lanjut, pertimbangkan untuk memberikan donasi melalui platform berikut:
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
