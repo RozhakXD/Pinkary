@@ -10,8 +10,8 @@ Pinkary adalah program sederhana untuk mengirim views otomatis ke profil Pinkary
 
 - 💻 **User-Friendly**: Antarmuka yang jelas dan mudah digunakan.
 - ⚡ **Multi-Threading**: Kirim banyak permintaan views sekaligus dengan dukungan threading.
-- 🎨 **Rich Output**: Menggunakan modul `rich` untuk menampilkan output yang menarik di terminal.
 - 📊 **Statistik Real-Time**: Pantau jumlah views yang berhasil dikirim, gagal, dan kesalahan selama proses berlangsung.
+- 🎨 **Rich Output**: Menggunakan modul `rich` untuk menampilkan output yang menarik di terminal.
 - ⏱ **Performa Tinggi**: Optimasi dengan pengaturan jumlah permintaan dan thread untuk waktu eksekusi yang lebih cepat.
 
 ## Persyaratan
@@ -58,9 +58,9 @@ pip install -r requirements.txt
 ## Troubleshooting
 Jika views tidak berhasil masuk, atau Anda mengalami masalah lain, coba solusi berikut:
 
+- ⚙️ **Pastikan Koneksi Stabil**: Koneksi internet yang lemah dapat menyebabkan kegagalan pengiriman views. Pastikan koneksi Anda stabil sebelum menjalankan program.
 - 🔄 **Aktifkan Mode Pesawat**: Jika views tidak berhasil, IP Anda mungkin telah dibatasi. Aktifkan mode pesawat selama beberapa detik untuk mereset koneksi, lalu coba lagi.
 - 🌐 **Gunakan VPN**: Jika mode pesawat tidak efektif, cobalah menggunakan VPN untuk menghindari blokir IP oleh Pinkary.
-- ⚙️ **Pastikan Koneksi Stabil**: Koneksi internet yang lemah dapat menyebabkan kegagalan pengiriman views. Pastikan koneksi Anda stabil sebelum menjalankan program.
 - 🔄 **Restart Program**: Jika Anda menemukan terlalu banyak error, coba hentikan program dan jalankan ulang.
 
 Jika masalah berlanjut, periksa apakah Anda telah menginstal versi terbaru dari semua dependensi.
