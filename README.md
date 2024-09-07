@@ -26,7 +26,7 @@ pip install -r requirements.txt
 - `rich`
 - `mechanize`
 
-## Cara Menggunakan
+## [Cara Menggunakan](https://youtu.be/SjTtGyQjhMY)
 1. Clone repositori ini:
     ```bash
     git clone https://github.com/RozhakXD/Pinkary.git
