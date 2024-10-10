@@ -6,7 +6,7 @@ try:
     from fake_useragent import UserAgent
 except (ModuleNotFoundError):
     print("[!] Some Modules are Missing. Please Install Them Using: `pip install -r requirements.txt`")
-    sys.exit()
+    __import__('sys').exit()
 
 def send_views(profile_url, stats):
     try:
@@ -63,7 +63,12 @@ def run_views(url, num_requests, num_threads):
 
 if __name__ == "__main__":
     try:
-        printf(Text(""",------. ,--.        ,--.                            \n|  .--. '`--',--,--, |  |,-. ,--,--.,--.--.,--. ,--. \n|  '--' |,--.|      \|     /' ,-.  ||  .--' \  '  /  \n|  | --' |  ||  ||  ||  \  \\\\ '-'  ||  |     \   '   \n`--'     `--'`--''--'`--'`--'`--`--'`--'   .-'  /    \n                                           `---'     """, style="bold magenta"))
+        printf(Text(r""",------. ,--.        ,--.                            
+|  .--. '`--',--,--, |  |,-. ,--,--.,--.--.,--. ,--. 
+|  '--' |,--.|      \|     /' ,-.  ||  .--' \  '  /  
+|  | --' |  ||  ||  ||  \  \\ '-'  ||  |     \   '   
+`--'     `--'`--''--'`--'`--'`--`--'`--'   .-'  /    
+                                           `---'     """, style="bold magenta"))
         printf("[bold cyan]Pinkary Views Sender - Coded by Rozhak[/bold cyan]\n")
 
         profile_url = Console().input("[bold white][[bold green]?[bold white]][bold white] Tautan : ")
